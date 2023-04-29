@@ -1,0 +1,36 @@
+# this file is for maintaining consistent settings across editors
+# editorconfig.org
+
+# top-most editorconfig file
+root = true
+
+# default settings:
+[*]
+# yes, I use tabs
+indent_style = tab
+indent_size = 2
+# better to leave eol handled by VCS
+#end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# for markdown, whitespace is significant
+[*.md]
+trim_trailing_whitespace = false
+
+# for makefiles, tabs are significant
+[Makefile]
+indent_style = tab
+
+# the indent size used in package.json cannot be changed
+# see: https://github.com/npm/npm/pull/3180#issuecomment-16336516
+[package.json]
+indent_style = space
+indent_size = 2
+
+# tabs cannot be used as indentation in YAML files
+# see: https://yaml.org/spec/1.2/spec.html#id2777534
+[{*.yml,*.yaml}]
+indent_style = space
+
