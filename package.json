@@ -4,5 +4,6 @@
   "description": "",
   "repository": "github:yeonsy/morpheus",
   "license": "AGPL-3.0-or-later",
-  "private": true
+  "private": true,
+  "packageManager": "yarn@3.5.0"
 }
