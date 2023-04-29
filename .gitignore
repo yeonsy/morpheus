@@ -1,9 +1,14 @@
-# yarn
+# npm
+/node_modules
 
+# next
+.next/
+next-env.d.ts
+
+# yarn
 .yarn/*
 !.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
