@@ -28,6 +28,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@codemirror/commands", "npm:6.2.3"],\
+            ["@codemirror/state", "npm:6.2.0"],\
+            ["@codemirror/view", "npm:6.10.0"],\
             ["@types/node", "npm:18.16.3"],\
             ["@types/react", "npm:18.2.0"],\
             ["@types/react-dom", "npm:18.2.1"],\
@@ -59,6 +62,55 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@babel/runtime", "npm:7.21.5"],\
             ["regenerator-runtime", "npm:0.13.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@codemirror/commands", [\
+        ["npm:6.2.3", {\
+          "packageLocation": "./.yarn/cache/@codemirror-commands-npm-6.2.3-6fcc35a3b9-e6b7d07818.zip/node_modules/@codemirror/commands/",\
+          "packageDependencies": [\
+            ["@codemirror/commands", "npm:6.2.3"],\
+            ["@codemirror/language", "npm:6.6.0"],\
+            ["@codemirror/state", "npm:6.2.0"],\
+            ["@codemirror/view", "npm:6.10.0"],\
+            ["@lezer/common", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@codemirror/language", [\
+        ["npm:6.6.0", {\
+          "packageLocation": "./.yarn/cache/@codemirror-language-npm-6.6.0-43696d4b79-bb9411620e.zip/node_modules/@codemirror/language/",\
+          "packageDependencies": [\
+            ["@codemirror/language", "npm:6.6.0"],\
+            ["@codemirror/state", "npm:6.2.0"],\
+            ["@codemirror/view", "npm:6.10.0"],\
+            ["@lezer/common", "npm:1.0.2"],\
+            ["@lezer/highlight", "npm:1.1.4"],\
+            ["@lezer/lr", "npm:1.3.4"],\
+            ["style-mod", "npm:4.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@codemirror/state", [\
+        ["npm:6.2.0", {\
+          "packageLocation": "./.yarn/cache/@codemirror-state-npm-6.2.0-19618854d2-fdc99c773d.zip/node_modules/@codemirror/state/",\
+          "packageDependencies": [\
+            ["@codemirror/state", "npm:6.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@codemirror/view", [\
+        ["npm:6.10.0", {\
+          "packageLocation": "./.yarn/cache/@codemirror-view-npm-6.10.0-957047dcdf-ff6a370319.zip/node_modules/@codemirror/view/",\
+          "packageDependencies": [\
+            ["@codemirror/view", "npm:6.10.0"],\
+            ["@codemirror/state", "npm:6.2.0"],\
+            ["style-mod", "npm:4.0.3"],\
+            ["w3c-keyname", "npm:2.2.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -214,6 +266,35 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jridgewell/trace-mapping", "npm:0.3.18"],\
             ["@jridgewell/resolve-uri", "npm:3.1.0"],\
             ["@jridgewell/sourcemap-codec", "npm:1.4.14"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@lezer/common", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/@lezer-common-npm-1.0.2-0f6180d7ec-bbcc58e07b.zip/node_modules/@lezer/common/",\
+          "packageDependencies": [\
+            ["@lezer/common", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@lezer/highlight", [\
+        ["npm:1.1.4", {\
+          "packageLocation": "./.yarn/cache/@lezer-highlight-npm-1.1.4-3c9e0680f3-30e848c028.zip/node_modules/@lezer/highlight/",\
+          "packageDependencies": [\
+            ["@lezer/highlight", "npm:1.1.4"],\
+            ["@lezer/common", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@lezer/lr", [\
+        ["npm:1.3.4", {\
+          "packageLocation": "./.yarn/cache/@lezer-lr-npm-1.3.4-29a0153223-58bc25a9ba.zip/node_modules/@lezer/lr/",\
+          "packageDependencies": [\
+            ["@lezer/lr", "npm:1.3.4"],\
+            ["@lezer/common", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3149,6 +3230,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["morpheus", "workspace:."],\
+            ["@codemirror/commands", "npm:6.2.3"],\
+            ["@codemirror/state", "npm:6.2.0"],\
+            ["@codemirror/view", "npm:6.10.0"],\
             ["@types/node", "npm:18.16.3"],\
             ["@types/react", "npm:18.2.0"],\
             ["@types/react-dom", "npm:18.2.1"],\
@@ -4284,6 +4368,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["style-mod", [\
+        ["npm:4.0.3", {\
+          "packageLocation": "./.yarn/cache/style-mod-npm-4.0.3-5a2f07cb3f-934556e720.zip/node_modules/style-mod/",\
+          "packageDependencies": [\
+            ["style-mod", "npm:4.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["styled-jsx", [\
         ["npm:5.1.1", {\
           "packageLocation": "./.yarn/cache/styled-jsx-npm-5.1.1-2557a209ba-523a33b386.zip/node_modules/styled-jsx/",\
@@ -4640,6 +4733,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/util-deprecate-npm-1.0.2-e3fe1a219c-474acf1146.zip/node_modules/util-deprecate/",\
           "packageDependencies": [\
             ["util-deprecate", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["w3c-keyname", [\
+        ["npm:2.2.6", {\
+          "packageLocation": "./.yarn/cache/w3c-keyname-npm-2.2.6-55cd4f6245-59a31d23ca.zip/node_modules/w3c-keyname/",\
+          "packageDependencies": [\
+            ["w3c-keyname", "npm:2.2.6"]\
           ],\
           "linkType": "HARD"\
         }]\
